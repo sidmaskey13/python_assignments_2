@@ -4,7 +4,7 @@
 givenString = input('Enter string: ')
 
 
-def check_anagrams(given_string):
+def check_palindrome(given_string):
     word_length = len(given_string)
     half_word_length = int(word_length/2)
     match = 0
@@ -17,6 +17,6 @@ def check_anagrams(given_string):
         return f"{given_string} is not Palindrome"
 
 
-print(check_anagrams(givenString))
+print(check_palindrome(givenString))
 
 
